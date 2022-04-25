@@ -34,12 +34,13 @@ header {
   align-items: center;
 }
 
-.logo {
+.logo a {
   font-size: 23px;
   letter-spacing: 1.8px;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .post-button {
@@ -118,6 +119,12 @@ header {
   width: 500px;
   font-size: 14px;
 }
+
+.question-top__title a{
+  color: #000000;
+  text-decoration: none;
+}
+
 
 .question-top__name {
   font-size: 12px;
